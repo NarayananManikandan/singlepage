@@ -28,13 +28,8 @@
 }
 
 .headerchild2 {
-    margin-top: 30px;
+    margin-top: 25px;
 }
-
-.headerchild3 {
-    margin-bottom: 30px;
-}
-
 .headerchild4 {
     margin-right: 20px;
     background-color: #43B6E7;
@@ -46,8 +41,8 @@
 }
 
 .buttoncolor {
-    padding: 20px 40px;
-    margin-top: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
     font-size: 20px;
     color: white;
     background-color: #696464;
@@ -57,21 +52,24 @@
 .headerchild1 a {
     text-decoration: none;
     color: #9B9B9B;
-    font-size: 30px;
+    font-size: 20px;
     /* background-color: azure; */
 
 }
 
 .headermain {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     align-items: center;
     justify-content: space-between;
     /* background-color: azure; */
+    margin-left: -5px;
 }
 
 .sportvariant {
     display: flex;
+    flex-wrap: wrap;
+    /* flex-basis: content; */
     justify-content: space-between;
     margin-bottom: 20px;
     color: white;
@@ -84,8 +82,8 @@
 }
 
 .uniform-img1 {
-    width: 250px;
-    height: 170px;
+    width: 200px;
+    height: 130px;
     border-radius: 20px;
 
 }
@@ -161,6 +159,7 @@
     margin: 10px 0px;
 }
 
+
 .locationchild1 {
     display: flex;
     gap: 10px;
@@ -169,6 +168,7 @@
 
 .locationchild2 {
     font-size: 20px;
+    margin-top: 3px;
 
 }
 
@@ -183,15 +183,15 @@
     color: #6D6A6A;
     border-radius: 30px;
     background-color: #443F3F;
-    width: 500px;
-    padding: 20px 0px;
-    font-size: 30px;
-    padding-right: 130px;
+    width: 410px;
+    padding: 15px 0px;
+    font-size: 20px;
+    padding-right: 160px;
 }
 
 .bi-search {
     margin-right: 20px;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
     color: #908C8C;
 }
 
@@ -202,7 +202,8 @@
 
 .bi-chevron-down {
     color: white;
-    margin-left: 20px;
+    margin-left: 15px;
+    padding-top: 1px;
 }
 
 .rating {
@@ -216,8 +217,8 @@
 }
 
 .uniform-img {
-    width: 500px;
-    height: 300px;
+    width: 380px;
+    height: 220px;
     border-radius: 20px;
 }
 
@@ -232,19 +233,22 @@
     color: white;
     text-align: center;
     margin-top: 50px;
-    margin-left: 80px
 }
-
+.seemoremain{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+/* background-color: #0BAC0B; */
+}
 .seemore {
     color: white;
-    width: 300px;
+    width: 250px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #B2AE2B;
     border-radius: 20px;
-    margin-top: 70px;
-    margin-left: 730px;
-    padding: 10px 10px;
+    padding: 10px 20px;
 }
 
 .maincard1 {
@@ -280,7 +284,7 @@
     font-weight: 150;
     margin-top: 30px;
     text-align: justify;
-    width: 900px;
+    width: 800px;
     /* background-color: #B2AE2B; */
 }
 
@@ -300,22 +304,35 @@
 
 .citieschild2 {
     display: flex;
+    justify-content: flex-start;
     display: grid;
     grid-template-columns: repeat(5, auto);
     gap: 20px;
     color: #C7C3C3;
-    font-size: 15px;
+    font-size: 11px;
     margin-left: 30px;
+    /* background-color: #0BAC0B; */
 
+}
+.citieschild5{
+    display: flex;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(5, auto);
+    gap: 20px;
+    color: #C7C3C3;
+    font-size: 11px;
+    margin-left: 30px;
 }
 
 .Cities {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 40px;
     font-weight: bold;
     margin-left: 30px;
     padding-top: 30px;
+    /* background-color: #0BAC0B; */
 }
 
 .citieschild1 {
@@ -323,6 +340,7 @@
     margin: 30px 0px;
     font-weight: bold;
     margin-left: 30px;
+    font-size: 18px;
 }
 
 .citiesmain {
@@ -344,7 +362,14 @@
 .Discoverchild1 {
     color: white;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 70px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.Discoverchild6{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
     text-align: justify;
     margin-top: 30px;
 }
@@ -444,7 +469,8 @@
 
 .qrocdeicon {
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 80px;
+    /* background-color: #9A2DED; */
 
 }
 
